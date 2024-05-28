@@ -6,4 +6,6 @@ public class Constant {
 
     public static final String LOGOUT_ENDPOINT = "/api/v1/user-service/auth/logout";
 
+    public static final String VALIDATE_TOKEN_ENDPOINT = "/api/v1/user-service/auth/validate-token";
+
 }

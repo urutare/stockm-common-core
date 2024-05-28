@@ -16,4 +16,10 @@ public class OfflineTransactionUpsertDTO {
     private Action action;
     private JsonNode activityData;
     private UUID userId;
+
+    private String name;
+
+    private Boolean protectedData;
+
+    private String deviceId;
 }
