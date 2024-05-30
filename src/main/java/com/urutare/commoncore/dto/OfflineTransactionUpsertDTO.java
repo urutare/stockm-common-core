@@ -15,6 +15,7 @@ public class OfflineTransactionUpsertDTO {
     private ActivityType type;
     private Action action;
     private JsonNode activityData;
+
     private UUID userId;
 
     private String name;
