@@ -34,4 +34,5 @@ public enum Mass {
     public String getClassN() {
         return getClassName();
     }
+
 }
