@@ -33,6 +33,9 @@ public enum ActivityType {
     USER_VERIFICATION,
     SUGGEST_CATEGORY,
     SUGGEST_PRODUCT,
+    CATEGORY,
+
+    PIECE,
 
 
 }
