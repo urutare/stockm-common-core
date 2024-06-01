@@ -10,4 +10,5 @@ public class ValidateTokenDTO {
     private UUID userId;
     private String username;
     private Role[] roles;
+    private String deviceId;
 }
