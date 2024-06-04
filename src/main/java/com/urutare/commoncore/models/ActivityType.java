@@ -37,5 +37,9 @@ public enum ActivityType {
 
     PIECE,
 
+    COMPANY,
+
+    EMPLOYEE,
+
 
 }
