@@ -47,5 +47,6 @@ public enum ActivityType {
 
     EMPLOYEE,
 
+    USER_SETTINGS,
 
 }
