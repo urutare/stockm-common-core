@@ -1,6 +1,8 @@
 package com.urutare.commoncore.models;
 
 public enum ActivityType {
+    ROLE_PERMISSION,
+    ROLE,
     SALE,
     PURCHASE,
     CUSTOMER,
