@@ -41,6 +41,10 @@ public enum ActivityType {
 
     COMPANY,
 
+    SUBSCRIPTION,
+
+    USER_SUBSCRIPTION,
+
     EMPLOYEE,
 
 
