@@ -18,10 +18,7 @@ RUN mvn clean package -DskipTests
 FROM openjdk:17-jdk
 
 # Copy the JAR file from the build stage
-COPY --from=build /app/target/*.jar app.jar
+COPY --from=build /app/target/*.jar /common-core/stockm-common-core.jar
 
-# Set the working directory
-WORKDIR /app
-
-# Specify the command to run the Java program
-CMD ["java", "-jar", "app.jar"]
+# Keep the container running
+CMD ["sh", "-c", "while :; do sleep 2073600; done"]
