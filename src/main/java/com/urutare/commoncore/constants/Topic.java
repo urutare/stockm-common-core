@@ -5,8 +5,6 @@ public class Topic {
     public static final String OFFLINE_TRANSACTIONS_NOTIFICATION = "offline-transactions-notification";
 
     public static final String ONLINE_TRANSACTIONS = "online-transactions";
-
-    public static final String ONLINE_TRANSACTIONS_NOTIFICATION = "online-transactions-notification";
-
+    
     public static final String DEVICE_TRANSACTIONS = "device-transactions";
 }
